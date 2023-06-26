@@ -15,11 +15,14 @@ The dataset for detection could be downloaded from [VOC2007](http://host.robots.
 
 ## 3. Training
 To train the mode, please check the dataset directory in data/dataloader.py and the pre-trained model directory in wcl.py and run:
+
 `bash run_pipeline.sh`
 
 ## 4. Testing and Evaluation
 Please check the testing dataset directory in ddt_dino_sig.py and meaure.py, and the checkpoint directory in ddt_dino_sig.py and run:
+
 `python ddt_dino_sig.py`
+
 `python measure.py`
 
 ## 5. Acknowledgement
