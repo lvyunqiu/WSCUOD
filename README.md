@@ -14,16 +14,19 @@ The dataset for segmentation could be downloaded from [ECSSD](https://www.cse.cu
 The dataset for detection could be downloaded from [VOC2007](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/), [VOC2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html#devkit) and [COCO20K](http://images.cocodataset.org/annotations/annotations_trainval2014.zip)
 
 ## 3. Training
-To train the mode, please check the dataset directory in data/dataloader.py (image_folder_prefix) and the pre-trained model directory in wcl.py (--pretrained_path) and run:
+To train the mode, please check the dataset directory in data/dataloader.py (`image_folder_prefix`) and the pre-trained model directory in wcl.py (`--pretrained_path`) and run:
 
-`bash run_pipeline.sh`
+```python
+bash run_pipeline.sh
+```
 
 ## 4. Testing and Evaluation
-Please check the testing dataset directory in ddt_dino_sig.py and meaure.py, and the checkpoint directory in ddt_dino_sig.py and run:
+Please check the testing dataset directory in ddt_dino_sig.py (`--test_root` and `test_dataset`), and the checkpoint directory in ddt_dino_sig.py (`--pretr_path`) and run:
 
-`python ddt_dino_sig.py`
-
-`python measure.py`
+```python
+python ddt_dino_sig.py
+python measure.py
+```
 
 ## 5. Acknowledgement
 We acknowledge these excellent works that inspire our project: [Weakly Contrastive Learning](https://github.com/mingkai-zheng/WCL), [DDT](https://github.com/GeoffreyChen777/DDT.git) and [DINO](https://github.com/facebookresearch/dino). 
