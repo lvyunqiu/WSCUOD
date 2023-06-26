@@ -1,4 +1,4 @@
-# WSUOD
+# WSCUOD
 The code for "Weakly-supervised Contrastive Learning for Unsupervised Object Discovery"
 
 The checkpoint for evaluation could be downloaded from [wcl-16-final.pth](https://drive.google.com/file/d/1eh8Y7yLTngjEu5EGPJ0RI9blEQ_5qyvS/view?usp=sharing)
