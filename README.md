@@ -14,7 +14,7 @@ The dataset for segmentation could be downloaded from [ECSSD](https://www.cse.cu
 The dataset for detection could be downloaded from [VOC2007](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/), [VOC2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html#devkit) and [COCO20K](http://images.cocodataset.org/annotations/annotations_trainval2014.zip)
 
 ## 3. Training
-To train the mode, please check the dataset directory in data/dataloader.py and the pre-trained model directory in wcl.py and run:
+To train the mode, please check the dataset directory in data/dataloader.py (image_folder_prefix) and the pre-trained model directory in wcl.py (--pretrained_path) and run:
 
 `bash run_pipeline.sh`
 
