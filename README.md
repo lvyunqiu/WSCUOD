@@ -26,4 +26,4 @@ Please check the testing dataset directory in ddt_dino_sig.py and meaure.py, and
 `python measure.py`
 
 ## 5. Acknowledgement
-We acknowledge these works that inspire our project: [Weakly Contrastive Learning](https://github.com/mingkai-zheng/WCL), [DDT](https://github.com/GeoffreyChen777/DDT.git) and [DINO](https://github.com/facebookresearch/dino). 
+We acknowledge these excellent works that inspire our project: [Weakly Contrastive Learning](https://github.com/mingkai-zheng/WCL), [DDT](https://github.com/GeoffreyChen777/DDT.git) and [DINO](https://github.com/facebookresearch/dino). 
