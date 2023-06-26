@@ -23,7 +23,9 @@ bash run_pipeline.sh
 ## 4. Testing and Evaluation
 Please check:
 - the testing dataset directory in ddt_dino_sig.py (`--test_root` and `test_dataset`)
-- the checkpoint directory in ddt_dino_sig.py (`--pretr_path`) and run:
+- the checkpoint directory in ddt_dino_sig.py (`--pretr_path`):
+- the testing dataset directory and save path in measure.py(`pred_dir0`, `test_datasets`)
+and run
 
 ```python
 python ddt_dino_sig.py
