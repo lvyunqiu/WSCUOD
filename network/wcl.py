@@ -14,7 +14,7 @@ import torchvision
 class WCL(nn.Module):
     def __init__(self, pretrained_path, device, patch_size=16, dim_hidden=384, dim=256):
         super(WCL, self).__init__()
-        
+        self.patch_size = patch_size
         if os.path.exists(pretrained_path):
             
             if "moco" in pretrained_path:
